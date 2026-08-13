@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📝 Examens de Français</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      .examen-link {
+        text-decoration: none;
+        font-size: 22px;
+        display: block;
+        padding: 15px 25px;
+        margin: 12px auto;
+        max-width: 350px;
+        text-align: center;
+        background: white;
+        color: #2c3e50;
+        border-radius: 12px;
+        border: 2px solid #88c8e8;
+        transition: all 0.25s ease;
+      }
+      .examen-link:hover {
+        background: #e1f0fa;
+        border-color: #4a6fa5;
+        transform: translateY(-3px);
+      }
+      .container {
+        text-align: center;
+        padding: 30px 20px;
+      }
+      .examen-link span {
+        display: block;
+        font-size: 15px;
+        color: #666;
+        margin-top: 5px;
+      }
+    </style>
+</head>
+<body>
+
+<h2 style="text-align:center; color:#2c3e50; margin:40px 0 20px 0; font-size:28px;">📝 Examens de Révision</h2>
+<p style="text-align:center; color:#4a6fa5; font-size:18px; margin-bottom:30px;">Choisissez un examen pour pratiquer ✨</p>
+
+<div class="container">
+  <a href="examen1.html" class="examen-link">
+    📖 Examen 1 — Grammaire
+    <span>Ce / Cette · Articles · Possessifs · Pluriel</span>
+  </a>
+
+  <a href="examen2.html" class="examen-link">
+    📖 Examen 2 — Vocabulaire
+    <span>Nombres · Jours · Couleurs · Pronoms · Verbes</span>
+  </a>
+</div>
+
+<br><br>
+<div style="text-align:center;">
+  <button class="back-button" onclick="goBack()">&lt;</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

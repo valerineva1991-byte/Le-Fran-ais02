@@ -1,0 +1,323 @@
+/* ===== ESTILOS GENERALES ===== */
+body {
+  padding: 25px;
+  margin: 10px;
+  background: lightcyan;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2.8em;
+  color: white;
+  background: linear-gradient(135deg, #4a6fa5 0%, #2c3e50 100%);
+  padding: 20px 30px;
+  border-radius: 14px;
+  box-shadow: 0 6px 15px rgba(44, 62, 80, 0.25);
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+h2 {
+  margin: 2rem 0 1rem 0;
+  text-align: center;
+  color: #2c3e50;
+}
+
+h3 {
+  text-align: center;
+}
+.ora-list4{
+  font-size: 25px;
+  text-align: center;
+  word-spacing: 10px;
+  
+
+}
+
+/* ===== ENLACE DE LECCIONES ===== */
+.le-link {
+  text-decoration: none;
+  font-size: 30px;
+  display: block;
+  padding: 12px 20px;
+  margin: 8px auto;
+  max-width: 400px;
+  text-align: center;
+  background: #71b0eb;
+  border-radius: 10px;
+  color: #2c3e50;
+  transition: all 0.3s ease;
+}
+
+.le-link:hover {
+  background: rgba(74, 111, 165, 0.3);
+  text-decoration: underline;
+  color: inherit;
+  transform: translateY(-2px);
+}
+
+/* ===== ENLACES DEL MENÚ ===== */
+.le-link, .francais {
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+  padding: 12px 20px;
+  margin: 8px auto;
+  max-width: 400px;
+  text-align: center;
+  background: rgba(74, 111, 165, 0.1);
+  border-radius: 10px;
+  color: #2c3e50;
+  transition: all 0.3s ease;
+}
+
+.le-link:hover, .francais:hover {
+  background: rgba(74, 111, 165, 0.3);
+  text-decoration: underline;
+  color: inherit;
+  transform: translateY(-2px);
+}
+
+/* ===== CAJA DE TEXTO ESPECIAL ===== */
+.thinking {
+  font-size: 16px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 20px;
+  border: 5px solid #9aa;
+  word-spacing: 0.3em;
+  max-width: 800px;
+  margin: 20px auto;
+  background: white;
+  border-radius: 12px;
+}
+
+/* ===== LISTAS ===== */
+ul {
+  background-color: rgba(192, 192, 192, 0.2);
+  list-style-type: none;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 12px;
+}
+
+li {
+  margin: 8px;
+}
+
+.ora-list5 {
+  border-radius: 8px;
+  padding: 10px 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.ora-list5 li {
+  padding: 8px 0;
+  font-size: 17px;
+}
+
+/* ===== TÍTULOS Y BOTONES GENERALES ===== */
+.title {
+  color: #5C6AC4;
+  background-color: lightblue;
+  text-align: center;
+  box-shadow: 3px 3px 8px rgba(0,0,0,0.1);
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+.process {
+  display: block;
+  text-decoration: none;
+  background: lightblue;
+  height: 25px;
+  width: 60px;
+  padding: 15px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 16px;
+  margin: 15px auto;
+  color: #5C6AC4;
+  box-shadow: 3px 3px 8px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  border-radius: 6px;
+}
+
+.process:hover {
+  transform: translateY(-5px);
+  box-shadow: 6px 6px 15px rgba(0,0,0,0.2);
+}
+
+button {
+  letter-spacing: 2px;
+  border-radius: 5px;
+}
+
+/* ===== BOTÓN DE VOLVER ===== */
+.back-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #3c6e9c;
+  color: #ffffff;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 10px;
+}
+
+.back-button:hover {
+  background-color: #4492dc;
+  transform: translateX(-3px);
+  box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.back-button:active {
+  transform: translateX(0);
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+/* ===== CONTENEDOR Y CONTENIDO ===== */
+.container {
+  display: flex;
+  max-width: 1100px;
+  width: 100%;
+  margin: 40px auto;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  align-items: center;
+  background: white;
+  border-radius: 16px;
+}
+
+.cent-content5 {
+  flex: 1;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 22px;
+  margin: 0 auto;
+  line-height: 1.6;
+  max-width: 800px;
+}
+
+/* ===== TABLA DE GRAMÁTICA ===== */
+table.pronom {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 800px;
+  margin: 1.5rem auto;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+table.pronom th,
+table.pronom td {
+  border: 1px solid #ddd;
+  padding: 12px 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+table.pronom thead {
+  background: linear-gradient(135deg, #4a6fa5 0%, #2c3e50 100%);
+  color: white;
+}
+
+table.pronom thead th {
+  font-weight: 600;
+  padding: 14px 10px;
+}
+
+table.pronom tbody th {
+  background-color: #eef4f9;
+  color: #2c3e50;
+  font-weight: 600;
+  text-align: left;
+  padding-left: 16px;
+}
+
+table.pronom tbody tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+table.pronom tbody tr:hover {
+  background-color: #bbdefb;
+  transition: background-color 0.25s ease;
+}
+
+.symbol {
+  font-size: 1.1em;
+  margin-right: 4px;
+}
+
+/* ===== FRASE INSPIRADORA ===== */
+.quote {
+  font-style: italic;
+  color: #5c6fa5;
+  margin-bottom: 30px;
+  padding: 20px 25px;
+  border-bottom: 2px dashed #b0d0e0;
+  border-top: 2px dashed #b0d0e0;
+  background: rgba(173, 216, 230, 0.2);
+  border-radius: 12px;
+  line-height: 1.7;
+}
+
+/* ===== ALFABETO ===== */
+.alphabet {
+  letter-spacing: 6px;
+  font-size: 1.1em;
+  color: #2c3e50;
+  background: rgba(173, 216, 230, 0.3);
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 35px;
+  line-height: 1.8;
+}
+
+/* ===== DISEÑO MÓVIL ===== */
+@media (max-width: 768px) {
+  body {
+    padding: 15px;
+    margin: 0;
+  }
+
+  .container {
+    flex-direction: column;
+    margin: 10px auto;
+    width: 95%;
+  }
+
+  .cent-content5 {
+    padding: 25px 15px;
+    font-size: 18px;
+  }
+
+  .francais, .le-link {
+    font-size: 18px;
+    padding: 10px 15px;
+  }
+
+  table.pronom th,
+  table.pronom td {
+    padding: 10px 5px;
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 2em;
+    padding: 15px 20px;
+  }
+}
