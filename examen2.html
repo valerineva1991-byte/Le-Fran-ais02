@@ -25,7 +25,7 @@
 
 <div id="examen" style="background:rgba(173, 216, 230, 0.25); padding:25px; border-radius:12px; max-width:700px; margin:0 auto; font-size:18px; line-height:2;">
 
-  <!-- NOMBRES (1–10) -->
+  <!-- NÚMEROS (del 1 al 10) -->
   <div class="question" id="q1-container">
     <p><strong>1. Quel est le chiffre : 3 ?</strong></p>
     <p style="margin-left:20px;">
@@ -41,7 +41,7 @@
   </div>
 
   <div class="question" id="q2-container">
-    <p><strong>2. Huit correspond à :</strong></p>
+    <p><strong>2. Huit = ?</strong></p>
     <p style="margin-left:20px;">
       <input type="radio" name="q2" value="a"> A. 7<br>
       <input type="radio" name="q2" value="b"> B. 8<br>
@@ -68,7 +68,7 @@
     <hr style="border:none; border-top:1px dashed #88c8e8; margin:15px 0;">
   </div>
 
-  <!-- JOURS DE LA SEMAINE -->
+  <!-- DÍAS DE LA SEMANA -->
   <div class="question" id="q4-container">
     <p><strong>4. Le premier jour de la semaine en France est :</strong></p>
     <p style="margin-left:20px;">
@@ -97,7 +97,7 @@
     <hr style="border:none; border-top:1px dashed #88c8e8; margin:15px 0;">
   </div>
 
-  <!-- COULEURS -->
+  <!-- COLORES -->
   <div class="question" id="q6-container">
     <p><strong>6. Le ciel est ___ .</strong></p>
     <p style="margin-left:20px;">
@@ -126,7 +126,7 @@
     <hr style="border:none; border-top:1px dashed #88c8e8; margin:15px 0;">
   </div>
 
-  <!-- PRONOMBRES -->
+  <!-- PRONOMBRES - PREGUNTA 8 CORREGIDA -->
   <div class="question" id="q8-container">
     <p><strong>8. Je, Tu, Il, Elle, ___ , Vous, Ils, Elles.</strong></p>
     <p style="margin-left:20px;">
@@ -136,13 +136,13 @@
     </p>
     <div id="q8-exp" class="explication" style="display:none;">
       ✅ <strong>Correcte :</strong> A. Nous<br>
-      💡 <em>Ordre : Je · Tu · Il/Elle · Nous · Vous · Ils/Elles.</em>
+      💡 <em>Ordre des pronoms : Je · Tu · Il/Elle · Nous · Vous · Ils/Elles.</em>
     </div>
     <hr style="border:none; border-top:1px dashed #88c8e8; margin:15px 0;">
   </div>
 
   <div class="question" id="q9-container">
-    <p><strong>9. ___ aime le français.</strong></p>
+    <p><strong>9. ___ aime le français.</strong> (Elle)</p>
     <p style="margin-left:20px;">
       <input type="radio" name="q9" value="a"> A. Il<br>
       <input type="radio" name="q9" value="b"> B. Elle<br>
@@ -155,9 +155,9 @@
     <hr style="border:none; border-top:1px dashed #88c8e8; margin:15px 0;">
   </div>
 
-  <!-- VERBES -->
+  <!-- VERBOS CON PRONOMBRES -->
   <div class="question" id="q10-container">
-    <p><strong>10. Je ___ au parc.</strong></p>
+    <p><strong>10. Je ___ au parc.</strong> (Aller)</p>
     <p style="margin-left:20px;">
       <input type="radio" name="q10" value="a"> A. vais<br>
       <input type="radio" name="q10" value="b"> B. va<br>
@@ -171,7 +171,7 @@
   </div>
 
   <div class="question" id="q11-container">
-    <p><strong>11. Tu ___ un frère.</strong></p>
+    <p><strong>11. Tu ___ un frère.</strong> (Avoir)</p>
     <p style="margin-left:20px;">
       <input type="radio" name="q11" value="a"> A. as<br>
       <input type="radio" name="q11" value="b"> B. es<br>
@@ -185,7 +185,7 @@
   </div>
 
   <div class="question" id="q12-container">
-    <p><strong>12. Nous ___ étudiants.</strong></p>
+    <p><strong>12. Nous ___ étudiants.</strong> (Être)</p>
     <p style="margin-left:20px;">
       <input type="radio" name="q12" value="a"> A. sommes<br>
       <input type="radio" name="q12" value="b"> B. est<br>
@@ -212,6 +212,7 @@
 </div>
 
 <script>
+// Respuestas correctas
 const respuestas = {
   q1: "a", q2: "b", q3: "b", q4: "a", q5: "b", q6: "b",
   q7: "a", q8: "a", q9: "b", q10: "a", q11: "a", q12: "a"
