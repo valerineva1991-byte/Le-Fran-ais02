@@ -12,10 +12,6 @@
 
 <div style="background:rgba(173, 216, 230, 0.25); padding:25px; border-radius:12px; max-width:700px; margin:0 auto; font-size:18px; line-height:1.8;">
 
-<!-- ============================================== -->
-<!-- 📝 PREGUNTAS -->
-<!-- ============================================== -->
-
 <p><strong>1. Je ___ étudiante.</strong> <span id="res-q1"></span><br>
 <label style="cursor:pointer;"><input type="radio" name="q1" value="a"> A) suis</label><br>
 <label style="cursor:pointer;"><input type="radio" name="q1" value="b"> B) est</label><br>
@@ -23,7 +19,7 @@
 
 <p><strong>2. Tu ___ mon amie.</strong> <span id="res-q2"></span><br>
 <label style="cursor:pointer;"><input type="radio" name="q2" value="a"> A) es</label><br>
-<label style="cursor:pointer;"><input type="radio" name="q2" value="b"> B) es</label><br>
+<label style="cursor:pointer;"><input type="radio" name="q2" value="b"> B) est</label><br>
 <label style="cursor:pointer;"><input type="radio" name="q2" value="c"> C) êtes</label></p>
 
 <p><strong>3. Il ___ grand et beau.</strong> <span id="res-q3"></span><br>
@@ -78,9 +74,6 @@
 
 </div>
 
-<!-- ============================================== -->
-<!-- 🎯 BOTONES Y RESULTADO -->
-<!-- ============================================== -->
 <div style="text-align:center; margin-top:25px;">
   <button onclick="corregir()" style="padding:10px 25px; font-size:18px; background:#4a6fa5; color:white; border:none; border-radius:8px; cursor:pointer; margin:5px;">✅ Corregir</button>
   <button onclick="reiniciar()" style="padding:10px 25px; font-size:18px; background:#e65100; color:white; border:none; border-radius:8px; cursor:pointer; margin:5px;">🔄 Recommencer</button>
@@ -96,7 +89,7 @@
 <script>
 const respuestas = {
   q1: { correcta: "a", explicacion: "Je + Être = suis" },
-  q2: { correcta: "b", explicacion: "Tu + Être = es" },
+  q2: { correcta: "a", explicacion: "Tu + Être = es" },
   q3: { correcta: "b", explicacion: "Il + Être = est" },
   q4: { correcta: "a", explicacion: "Nous + Être = sommes" },
   q5: { correcta: "b", explicacion: "Elle + Avoir = a" },
