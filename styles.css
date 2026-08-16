@@ -32,8 +32,6 @@ h3 {
   font-size: 25px;
   text-align: center;
   word-spacing: 10px;
-  
-
 }
 
 /* ===== ENLACE DE LECCIONES ===== */
@@ -183,21 +181,54 @@ button {
   box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.15);
 }
 
-/* ===== CONTENEDOR Y CONTENIDO ===== */
+/* ===== CONTENEDOR DE EXÁMENES — ARREGLADO ✅ ===== */
 .container {
   display: flex;
+  flex-wrap: wrap;          /* ← Los que no quepan pasan a la fila de abajo */
+  gap: 18px;                /* ← Espacio entre tarjetas */
+  justify-content: center;  /* ← Centradas bonitas */
   max-width: 1100px;
   width: 100%;
   margin: 40px auto;
+  padding: 25px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
-  overflow: hidden;
-  align-items: center;
   background: white;
   border-radius: 16px;
+  box-sizing: border-box;
 }
 
+/* ===== TARJETA DE CADA EXAMEN ===== */
+.examen-link {
+  min-width: 160px;         /* ← No se hacen más chicas que esto */
+  max-width: 220px;         /* ← No se estiran demasiado */
+  flex: 1 1 180px;          /* ← Tamaño base y crecimiento */
+  padding: 20px 15px;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #88c8e8;
+  border-radius: 12px;
+  background: white;
+  color: #2c3e50;
+  transition: all 0.3s ease;
+}
+
+.examen-link:hover {
+  background: rgba(173, 216, 230, 0.3);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.examen-link span {
+  display: block;
+  font-size: 13px;
+  color: #557;
+  margin-top: 8px;
+  line-height: 1.4;
+}
+
+/* ===== CONTENIDO CENTRADO ===== */
 .cent-content5 {
-  flex: 1;
+  flex: 1 1 100%;
   padding: 40px 30px;
   display: flex;
   flex-direction: column;
@@ -207,6 +238,8 @@ button {
   margin: 0 auto;
   line-height: 1.6;
   max-width: 800px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 /* ===== TABLA DE GRAMÁTICA ===== */
@@ -298,6 +331,11 @@ table.pronom tbody tr:hover {
     flex-direction: column;
     margin: 10px auto;
     width: 95%;
+    padding: 15px;
+  }
+
+  .examen-link {
+    max-width: 100%;
   }
 
   .cent-content5 {
