@@ -287,15 +287,6 @@ table.pronom tbody tr:hover {
   line-height: 1.8;
 }
 
-/* Flecha que se mueve hacia la izquierda */
-.back-button {
-  animation: flecha-mueve 1s ease-in-out infinite alternate;
-}
-
-@keyframes flecha-mueve {
-  from { transform: translateX(0); }
-  to   { transform: translateX(-6px); }
-}
 
 /* ===== DISEÑO MÓVIL ===== */
 @media (max-width: 768px) {
