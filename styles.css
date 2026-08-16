@@ -45,9 +45,9 @@ h3 {
   margin: 8px auto;
   max-width: 400px;
   text-align: center;
-  background: #71b0eb;
+  background: #436382;
   border-radius: 10px;
-  color: #2c3e50;
+  color: white;
   transition: all 0.3s ease;
 }
 
@@ -286,7 +286,6 @@ table.pronom tbody tr:hover {
   margin-bottom: 35px;
   line-height: 1.8;
 }
-
 
 /* ===== DISEÑO MÓVIL ===== */
 @media (max-width: 768px) {
